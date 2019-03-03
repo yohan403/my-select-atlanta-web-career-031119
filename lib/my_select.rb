@@ -5,3 +5,6 @@ def my_select(collection)
     i = i + 1
   end
 end
+
+my_select(nums) do |num|
+end
