@@ -7,5 +7,5 @@ def my_select(collection)
 end
 
 my_select(nums) do |num|
-  puts num
+  num.even?
 end
